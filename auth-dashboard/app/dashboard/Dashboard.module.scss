@@ -1,0 +1,65 @@
+.dashboardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  padding: 1rem;
+
+  .dashboardCard {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .welcomeMessage {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+    }
+
+    .infoText {
+      font-size: 1.1rem;
+      color: var(--text-color);
+      margin-bottom: 1.5rem;
+    }
+
+    .geminiFeature {
+      width: 100%;
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+
+      .motivationalMessage {
+        background-color: #e0f2fe;
+        color: #0c4a6e;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid #90cdf4;
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .dashboardContainer {
+    .dashboardCard {
+      padding: 1.5rem;
+      margin: 0 1rem; 
+    }
+  }
+}
