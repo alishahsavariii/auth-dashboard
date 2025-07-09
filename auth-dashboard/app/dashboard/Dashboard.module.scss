@@ -30,28 +30,6 @@
       color: var(--text-color);
       margin-bottom: 1.5rem;
     }
-
-    .geminiFeature {
-      width: 100%;
-      margin-top: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-
-      .motivationalMessage {
-        background-color: #e0f2fe;
-        color: #0c4a6e;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border: 1px solid #90cdf4;
-        font-size: 1rem;
-        text-align: center;
-        width: 100%;
-        max-width: 400px;
-        line-height: 1.5;
-      }
-    }
   }
 }
 
